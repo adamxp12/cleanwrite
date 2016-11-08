@@ -1,0 +1,21 @@
+{
+  "name": "CleanWrite",
+  "author": "Adam Blunt",
+  "version": "0.0.0",
+  "description": "A clean text editor",
+  
+  "build": {
+  "appId": "me.adamblunt.cleanwrite",
+  "mac": {
+    "category": "public.app-category.productivity"
+  }
+},
+
+  "main": "main.js",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+  	"electron": "^1.4.5"
+  }
+}

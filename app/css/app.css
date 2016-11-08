@@ -1,0 +1,40 @@
+body{
+	-webkit-app-region: drag;
+}
+
+.tabs {
+	margin: 0px 50px;
+	border: none;
+	visibility: hidden;
+}
+
+.tabs-content{
+	border: 0;
+}
+
+.tabs-title>a {
+    padding: 15px;
+}
+
+textarea {
+	min-width: 100%;
+	min-height: calc(100vh - 90px);
+	font-size: 20px;
+	resize: none;
+	border: none !important;
+	outline: none !important;
+	box-shadow: none;
+}
+
+textarea:focus, input:focus {
+	border: none !important;
+	outline: none !important;
+	box-shadow: none;
+}
+
+
+.maincontent{
+	-webkit-app-region: no-drag;
+	max-width: 100%;
+	overflow: wrap;
+}
