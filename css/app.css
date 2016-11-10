@@ -1,0 +1,15 @@
+h1, h2, h3, h4, h5 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+	font-weight: 300;
+}
+
+.head {
+	height: 80vh;
+	min-height: 200px;
+	padding-top: 25vh;
+	background: #ecf0f1;
+	margin-bottom: 30px;
+}
