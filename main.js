@@ -137,7 +137,11 @@ function createWindow () {
     submenu: [
       {
         label: 'CleanWrite Website',
-        click () { require('electron').shell.openExternal('http://cleanwrite.adamblunt.menu') }
+        click () { require('electron').shell.openExternal('https://cleanwrite.adamblunt.me') }
+      },
+      {
+        label: 'CleanWrite GitHub',
+        click () { require('electron').shell.openExternal('https://github.com/adamxp12/cleanwrite/') }
       }
     ]
   }
